@@ -1,5 +1,11 @@
 <div class="container">
   <app-header></app-header>
-  <app-user-input (calculate)="onCalculateInvestmentResults($event)"></app-user-input>
+  <!-- <app-user-input (calculate)="onCalculateInvestmentResults($event)"></app-user-input> -->
+  <app-user-input></app-user-input>
+  <app-results></app-results>
+  <!-- <app-results [results]="resultsData()"></app-results> -->
+  <!-- 
+  Without using signal
   <app-results [results]="resultsData"></app-results>
+    -->
 </div>
